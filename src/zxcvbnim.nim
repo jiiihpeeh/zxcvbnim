@@ -3,17 +3,18 @@ import
   zxcvbnim/reportobjects,
   zxcvbnim/formjson,
   zxcvbnim/matching,
+  zxcvbnim/extern,
   times,
   jsony,
   supersnappy,
   tables,
   options
-  
+
 const
-  DictCompressed = readFile("resources/DictFreq.json.snappy")
-  GraphsCompressed = readFile("resources/Graph.json.snappy")
+  DictCompressed = readFile(getExternpath("DictFreq.json.snappy"))
+  GraphsCompressed = readFile(getExternpath("Graph.json.snappy"))
   #Snappy for export/import consistency. Minimal space savings hence deserializion.
-  KeyboardConst = uncompress(readFile("resources/KeyboardConst.json.snappy")).fromJson(KbConsts)
+  KeyboardConst = uncompress(readFile(getExternpath("KeyboardConst.json.snappy"))).fromJson(KbConsts)
 
 type
   zxcvbNim* = object

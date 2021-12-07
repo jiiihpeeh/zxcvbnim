@@ -1,13 +1,13 @@
- 
-
 # Package
 
 version       = "0.3.0"
 author        = "juujaa"
-description   = "a zxcvbnm clone written in nim. Based on Python implementation."
+description   = "A zxcvbn clone for Nim"
 license       = "MIT"
 srcDir        = "src"
 
+
+
 # Dependencies
 
-requires "jsony=1.0.4", "supersnappy=2.0.0"
+requires "nim >= 1.4.8", "jsony", "supersnappy"
