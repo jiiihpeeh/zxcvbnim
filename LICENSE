@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2021 jiiihpeeh
+Copyright (c) 2021 jiiihpeeh 
+Some code snipplets and structure may be intact and is based on zxcvbn Python by Daniel Wolf 2016 (MIT)
+https://github.com/dwolfhub/zxcvbn-python/blob/master/LICENSE.txt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,5 +22,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Some code snipplets and structure may be intact and is based on zxcvbn Python by Daniel Wolf 2016 (MIT)
-https://github.com/dwolfhub/zxcvbn-python/blob/master/LICENSE.txt
+
