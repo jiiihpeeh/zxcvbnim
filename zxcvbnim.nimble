@@ -2,7 +2,7 @@
 
 version       = "0.3.0"
 author        = "juujaa"
-description   = "A zxcvbn clone for Nim. Written in pure Nim"
+description   = "A zxcvbn clone for Nim. Written in Nim"
 license       = "MIT"
 srcDir        = "src"
 
